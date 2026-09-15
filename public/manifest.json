@@ -1,0 +1,33 @@
+{
+  "id": "/",
+  "name": "PackSure AI — Legal Metrology Compliance",
+  "short_name": "PackSure AI",
+  "description": "PackSure AI: Automated Legal Metrology (Packaged Commodities) Rules, 2011 verification, OCR multi-panel inspection, and enforcement reporting platform.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

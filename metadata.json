@@ -1,0 +1,11 @@
+{
+  "name": "Remix PackSure",
+  "description": "A minimalist, command-line tool for efficient project templating and boilerplate scaffolding.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

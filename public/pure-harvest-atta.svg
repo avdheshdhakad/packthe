@@ -1,0 +1,435 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="canvasBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F5F0" />
+      <stop offset="100%" stop-color="#EDE8DF" />
+    </linearGradient>
+
+    <linearGradient id="frontPouchBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5EDE0" />
+      <stop offset="50%" stop-color="#EFE4D2" />
+      <stop offset="100%" stop-color="#DFCFB7" />
+    </linearGradient>
+
+    <linearGradient id="backPouchBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F6EFE3" />
+      <stop offset="100%" stop-color="#E2D4BF" />
+    </linearGradient>
+
+    <linearGradient id="brownBannerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#542512" />
+      <stop offset="50%" stop-color="#6F3218" />
+      <stop offset="100%" stop-color="#4E200F" />
+    </linearGradient>
+
+    <linearGradient id="greenAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B602A" />
+      <stop offset="100%" stop-color="#0F4219" />
+    </linearGradient>
+
+    <linearGradient id="flourGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF7" />
+      <stop offset="100%" stop-color="#E8DCB8" />
+    </linearGradient>
+
+    <linearGradient id="bowlGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6C391C" />
+      <stop offset="100%" stop-color="#3F1D0A" />
+    </linearGradient>
+
+    <filter id="pouchShadow" x="-5%" y="-3%" width="112%" height="110%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#382E1E" flood-opacity="0.18" />
+    </filter>
+
+    <filter id="softShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="800" fill="url(#canvasBg)" />
+
+  <!-- Title / Identification Header for Evidence Vault -->
+  <g transform="translate(60, 32)">
+    <rect x="0" y="0" width="1080" height="38" rx="8" fill="#FFFFFF" stroke="#D7CCC8" stroke-width="1" />
+    <text x="20" y="24" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#2E7D32">● LEGAL METROLOGY PACKAGING EVIDENCE VAULT</text>
+    <text x="375" y="24" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#5D4037">PureHarvest Whole Wheat Atta (500 g) — Front Display &amp; Statutory Panel</text>
+    <text x="960" y="24" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#1565C0">RULE 6(1) AUDIT</text>
+  </g>
+
+  <!-- =================================================================== -->
+  <!-- LEFT PANEL: FRONT OF PACK (PDP - Principal Display Panel)          -->
+  <!-- =================================================================== -->
+  <g transform="translate(60, 85)" filter="url(#pouchShadow)">
+    <!-- Outer Pouch Shape -->
+    <rect x="0" y="0" width="515" height="675" rx="20" fill="url(#frontPouchBg)" stroke="#C8BAA3" stroke-width="2" />
+
+    <!-- Pouch Top Heat Seal Texture -->
+    <path d="M 0 0 L 515 0 L 515 28 L 0 28 Z" fill="#E6D7C0" />
+    <line x1="0" y1="8" x2="515" y2="8" stroke="#D3C1A7" stroke-width="1.5" stroke-dasharray="4,3" />
+    <line x1="0" y1="18" x2="515" y2="18" stroke="#D3C1A7" stroke-width="1.5" stroke-dasharray="4,3" />
+    <line x1="0" y1="28" x2="515" y2="28" stroke="#B8A58B" stroke-width="1" />
+
+    <!-- BRAND LOGO: PureHarvest -->
+    <g transform="translate(130, 48)">
+      <!-- Leaf Motif -->
+      <path d="M 125 18 C 115 5 95 6 95 18 C 95 30 120 28 125 18 Z" fill="#2E7D32" />
+      <path d="M 125 18 C 135 5 155 6 155 18 C 155 30 130 28 125 18 Z" fill="#4CAF50" />
+      <!-- Brand Name -->
+      <text x="125" y="52" text-anchor="middle" font-family="'Georgia', serif, Arial" font-size="34" font-weight="bold" fill="#134E1E" letter-spacing="0.5">PureHarvest</text>
+      <!-- Brand Tagline -->
+      <text x="125" y="72" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#3E2723" letter-spacing="1">Good Food  •  Healthy Life</text>
+    </g>
+
+    <!-- Vegetarian Mark (Green Square with Circle) - Top Right -->
+    <g transform="translate(445, 52)">
+      <rect x="0" y="0" width="28" height="28" fill="#FFFFFF" stroke="#2E7D32" stroke-width="2.5" rx="3" />
+      <circle cx="14" cy="14" r="7" fill="#2E7D32" />
+    </g>
+
+    <!-- Curved Green Top Arc Banner -->
+    <path d="M 0 145 Q 257 125 515 145 L 515 160 Q 257 140 0 160 Z" fill="#2E7D32" opacity="0.9" />
+
+    <!-- MAIN PRODUCT NAME BANNER (Rich Brown Header) -->
+    <rect x="0" y="155" width="515" height="195" fill="url(#brownBannerGrad)" />
+    
+    <g transform="translate(257, 185)">
+      <!-- Main Product Titles -->
+      <text x="0" y="32" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="900" fill="#FFFFFF" letter-spacing="1">Whole Wheat</text>
+      <text x="0" y="98" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="900" fill="#FFFFFF" letter-spacing="1.5">Atta</text>
+      <text x="0" y="132" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#FFD54F" letter-spacing="0.5">100% Pure &amp; Natural</text>
+    </g>
+
+    <!-- Green Badge: RICH IN FIBRE -->
+    <g transform="translate(425, 260)">
+      <circle cx="0" cy="0" r="34" fill="#2E7D32" stroke="#4CAF50" stroke-width="2" />
+      <!-- Wheat icon in badge -->
+      <path d="M -8 -15 C -4 -22 4 -22 8 -15 C 4 -8 -4 -8 -8 -15 Z" fill="#E8F5E9" />
+      <path d="M 0 -12 L 0 8" stroke="#E8F5E9" stroke-width="2" />
+      <text x="0" y="8" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="900" fill="#FFFFFF">RICH IN</text>
+      <text x="0" y="19" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="900" fill="#FFFFFF">FIBRE</text>
+    </g>
+
+    <!-- CENTER GRAPHIC: Bowl with Atta Flour & Golden Wheat Stalks -->
+    <g transform="translate(257, 440)">
+      <!-- Wheat Stalks Background Glow -->
+      <path d="M -170 30 Q -110 -60 -40 -30 Q 30 -60 170 30 Z" fill="#E3C48D" opacity="0.4" />
+      
+      <!-- Wheat Grains Illustration Sprinkled -->
+      <g fill="#D7A15C" stroke="#A97530" stroke-width="1">
+        <ellipse cx="-130" cy="35" rx="9" ry="5" transform="rotate(-25 -130 35)" />
+        <ellipse cx="-110" cy="45" rx="8" ry="4" transform="rotate(15 -110 45)" />
+        <ellipse cx="-145" cy="55" rx="8" ry="4" transform="rotate(-40 -145 55)" />
+        <ellipse cx="-90" cy="58" rx="9" ry="5" transform="rotate(30 -90 58)" />
+      </g>
+
+      <!-- Jute Mat under Bowl -->
+      <ellipse cx="0" cy="58" rx="145" ry="32" fill="#BA956D" opacity="0.75" />
+
+      <!-- Bowl Shadow -->
+      <ellipse cx="0" cy="52" rx="135" ry="24" fill="#26140A" opacity="0.4" />
+
+      <!-- Ceramic/Clay Bowl Body -->
+      <path d="M -130 0 C -120 75 120 75 130 0 Z" fill="url(#bowlGrad)" stroke="#2D1305" stroke-width="2" />
+      <!-- Bowl Rim -->
+      <ellipse cx="0" cy="0" rx="130" ry="18" fill="#4A2511" stroke="#2D1305" stroke-width="1.5" />
+
+      <!-- Flour Mound inside Bowl -->
+      <path d="M -125 -2 Q -70 -75 0 -85 Q 70 -75 125 -2 Z" fill="url(#flourGrad)" />
+      <!-- Flour Grain Texture Highlights -->
+      <path d="M -90 -10 Q -40 -60 0 -68 Q 40 -60 90 -10 Z" fill="#FFFDF8" opacity="0.7" />
+      <path d="M -40 -20 Q 0 -55 40 -20 Z" fill="#FFFFFF" opacity="0.9" />
+    </g>
+
+    <!-- PDP BOTTOM STATUTORY DECLARATION: Net Quantity Badge -->
+    <g transform="translate(390, 565)">
+      <rect x="0" y="0" width="105" height="52" rx="10" fill="url(#greenAccent)" stroke="#1B5E20" stroke-width="1.5" />
+      <text x="52" y="20" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="700" fill="#E8F5E9" letter-spacing="0.5">Net Quantity</text>
+      <text x="52" y="42" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="900" fill="#FFFFFF">500 g</text>
+    </g>
+
+    <!-- Bottom Benefit Pills -->
+    <g transform="translate(25, 575)">
+      <!-- Badge 1 -->
+      <g transform="translate(30, 0)">
+        <circle cx="16" cy="16" r="16" fill="#E8F5E9" stroke="#81C784" stroke-width="1.5" />
+        <path d="M 16 7 L 16 17 M 11 12 L 21 12" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" />
+        <text x="16" y="44" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="800" fill="#3E2723">No</text>
+        <text x="16" y="54" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="800" fill="#3E2723">Additives</text>
+      </g>
+      <!-- Badge 2 -->
+      <g transform="translate(105, 0)">
+        <circle cx="16" cy="16" r="16" fill="#E8F5E9" stroke="#81C784" stroke-width="1.5" />
+        <path d="M 12 18 L 16 10 L 20 18 Z" fill="#2E7D32" />
+        <text x="16" y="44" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="800" fill="#3E2723">High</text>
+        <text x="16" y="54" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="800" fill="#3E2723">Nutrition</text>
+      </g>
+      <!-- Badge 3 -->
+      <g transform="translate(180, 0)">
+        <circle cx="16" cy="16" r="16" fill="#E8F5E9" stroke="#81C784" stroke-width="1.5" />
+        <path d="M 16 11 C 14 8 10 9 10 13 C 10 17 16 21 16 21 C 16 21 22 17 22 13 C 22 9 18 8 16 11 Z" fill="#2E7D32" />
+        <text x="16" y="44" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="800" fill="#3E2723">Good for</text>
+        <text x="16" y="54" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="800" fill="#3E2723">Heart</text>
+      </g>
+    </g>
+
+    <!-- Pouch Bottom Seal Crimping -->
+    <path d="M 0 655 L 515 655 L 515 675 L 0 675 Z" fill="#D8C8B1" />
+    <line x1="0" y1="662" x2="515" y2="662" stroke="#BFAC92" stroke-width="1.5" stroke-dasharray="4,3" />
+    <line x1="0" y1="670" x2="515" y2="670" stroke="#BFAC92" stroke-width="1.5" stroke-dasharray="4,3" />
+  </g>
+
+  <!-- =================================================================== -->
+  <!-- RIGHT PANEL: BACK OF PACK (STATUTORY MANDATORY DECLARATIONS PANEL) -->
+  <!-- =================================================================== -->
+  <g transform="translate(625, 85)" filter="url(#pouchShadow)">
+    <!-- Outer Pouch Shape -->
+    <rect x="0" y="0" width="515" height="675" rx="20" fill="url(#backPouchBg)" stroke="#C8BAA3" stroke-width="2" />
+
+    <!-- Pouch Top Heat Seal Crimping -->
+    <path d="M 0 0 L 515 0 L 515 28 L 0 28 Z" fill="#E6D7C0" />
+    <line x1="0" y1="8" x2="515" y2="8" stroke="#D3C1A7" stroke-width="1.5" stroke-dasharray="4,3" />
+    <line x1="0" y1="18" x2="515" y2="18" stroke="#D3C1A7" stroke-width="1.5" stroke-dasharray="4,3" />
+    <line x1="0" y1="28" x2="515" y2="28" stroke="#B8A58B" stroke-width="1" />
+
+    <!-- Center Packaging Seam (Foil Fin Seal) -->
+    <rect x="236" y="28" width="8" height="627" fill="#D7C9B4" opacity="0.6" />
+    <line x1="240" y1="28" x2="240" y2="655" stroke="#B9A891" stroke-width="1" />
+
+    <!-- ----------------------------------------------------------------- -->
+    <!-- BACK LEFT SUB-PANEL: Commodity Info & Nutrition Table            -->
+    <!-- ----------------------------------------------------------------- -->
+    <g transform="translate(22, 45)">
+      <!-- Container Box -->
+      <rect x="0" y="0" width="202" height="585" rx="8" fill="#FBF8F2" stroke="#DDD2C3" stroke-width="1" />
+
+      <!-- Section Title Header -->
+      <path d="M 0 0 L 202 0 L 202 32 L 0 32 Z" fill="#5D4037" rx="8" />
+      <rect x="0" y="24" width="202" height="8" fill="#5D4037" />
+      <text x="101" y="21" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="900" fill="#FFFFFF">Whole Wheat Atta</text>
+
+      <!-- Description Blurb -->
+      <text x="10" y="48" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" fill="#4E342E" width="182">
+        <tspan x="10" dy="0">Made from carefully selected</tspan>
+        <tspan x="10" dy="12">whole wheat grains, our atta brings</tspan>
+        <tspan x="10" dy="12">you the goodness of nature in</tspan>
+        <tspan x="10" dy="12">every meal.</tspan>
+      </text>
+
+      <!-- Ingredients Declaration -->
+      <text x="10" y="104" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="800" fill="#2E1C14">Ingredients:</text>
+      <text x="10" y="118" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="500" fill="#4E342E">Whole Wheat</text>
+
+      <!-- NUTRITIONAL TABLE (FSSAI / Metric Standard) -->
+      <g transform="translate(6, 134)">
+        <rect x="0" y="0" width="190" height="152" rx="4" fill="#FFFFFF" stroke="#BCAAA4" stroke-width="1" />
+        
+        <!-- Table Header -->
+        <rect x="0" y="0" width="190" height="30" rx="4" fill="#EFEBE9" />
+        <rect x="0" y="22" width="190" height="8" fill="#EFEBE9" />
+        <text x="95" y="14" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="800" fill="#3E2723">Nutritional Information</text>
+        <text x="95" y="25" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#6D4C41">(Approx. Values per 100 g)</text>
+        <line x1="0" y1="30" x2="190" y2="30" stroke="#BCAAA4" stroke-width="1" />
+        <line x1="120" y1="30" x2="120" y2="152" stroke="#BCAAA4" stroke-width="1" />
+
+        <!-- Row 1: Energy -->
+        <text x="8" y="46" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="600" fill="#3E2723">Energy</text>
+        <text x="180" y="46" text-anchor="end" font-family="'Courier New', monospace" font-size="9" font-weight="700" fill="#2E1C14">346 kcal</text>
+        <line x1="0" y1="52" x2="190" y2="52" stroke="#D7CCC8" stroke-width="1" />
+
+        <!-- Row 2: Protein -->
+        <text x="8" y="66" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="600" fill="#3E2723">Protein</text>
+        <text x="180" y="66" text-anchor="end" font-family="'Courier New', monospace" font-size="9" font-weight="700" fill="#2E1C14">11.8 g</text>
+        <line x1="0" y1="72" x2="190" y2="72" stroke="#D7CCC8" stroke-width="1" />
+
+        <!-- Row 3: Carbohydrate -->
+        <text x="8" y="86" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="600" fill="#3E2723">Carbohydrate</text>
+        <text x="180" y="86" text-anchor="end" font-family="'Courier New', monospace" font-size="9" font-weight="700" fill="#2E1C14">72.1 g</text>
+        <line x1="0" y1="92" x2="190" y2="92" stroke="#D7CCC8" stroke-width="1" />
+
+        <!-- Row 4: Total Fat -->
+        <text x="8" y="106" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="600" fill="#3E2723">Total Fat</text>
+        <text x="180" y="106" text-anchor="end" font-family="'Courier New', monospace" font-size="9" font-weight="700" fill="#2E1C14">1.5 g</text>
+        <line x1="0" y1="112" x2="190" y2="112" stroke="#D7CCC8" stroke-width="1" />
+
+        <!-- Row 5: Dietary Fibre -->
+        <text x="8" y="126" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="600" fill="#3E2723">Dietary Fibre</text>
+        <text x="180" y="126" text-anchor="end" font-family="'Courier New', monospace" font-size="9" font-weight="700" fill="#2E1C14">10.2 g</text>
+        <line x1="0" y1="132" x2="190" y2="132" stroke="#D7CCC8" stroke-width="1" />
+
+        <!-- Row 6: Sodium -->
+        <text x="8" y="146" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="600" fill="#3E2723">Sodium</text>
+        <text x="180" y="146" text-anchor="end" font-family="'Courier New', monospace" font-size="9" font-weight="700" fill="#2E1C14">5 mg</text>
+      </g>
+
+      <text x="10" y="300" font-family="'Helvetica Neue', Arial, sans-serif" font-size="7.5" font-style="italic" fill="#795548">*Values are approximate and may vary slightly.</text>
+
+      <!-- Storage Instructions -->
+      <g transform="translate(10, 318)">
+        <text x="0" y="10" font-family="'Helvetica Neue', Arial, sans-serif" font-size="8.5" font-weight="500" fill="#4E342E">Store in a cool, dry and hygienic place.</text>
+        <text x="0" y="21" font-family="'Helvetica Neue', Arial, sans-serif" font-size="8.5" font-weight="500" fill="#4E342E">Keep away from direct sunlight.</text>
+      </g>
+
+      <!-- Clean City & Tomorrow Logos -->
+      <g transform="translate(14, 400)">
+        <!-- Recycle / Clean City Icon -->
+        <g transform="translate(15, 0)">
+          <path d="M 0 0 L 8 -12 L 16 0 Z" fill="#2E7D32" />
+          <path d="M 8 -12 L 20 -8 L 14 2 Z" fill="#388E3C" />
+          <path d="M 14 2 L 2 -2 L 6 8 Z" fill="#1B5E20" />
+          <text x="10" y="24" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="7" font-weight="700" fill="#4E342E">Keep Your City Clean</text>
+        </g>
+        <!-- A Healthier Tomorrow -->
+        <g transform="translate(15, 60)">
+          <path d="M 10 0 C 4 -8 0 4 10 12 C 20 4 16 -8 10 0 Z" fill="#2E7D32" />
+          <text x="24" y="5" font-family="'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="700" fill="#2E7D32">A Healthier</text>
+          <text x="24" y="14" font-family="'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="700" fill="#2E7D32">Tomorrow</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- ----------------------------------------------------------------- -->
+    <!-- BACK RIGHT SUB-PANEL: STATUTORY DECLARATIONS UNDER RULE 6(1)      -->
+    <!-- ----------------------------------------------------------------- -->
+    <g transform="translate(248, 45)">
+      <!-- High-Contrast Statutory White Plate -->
+      <rect x="0" y="0" width="245" height="585" rx="8" fill="#FFFFFF" stroke="#D7CCC8" stroke-width="1.5" />
+
+      <!-- Top Border Legal Notice Line -->
+      <rect x="0" y="0" width="245" height="4" rx="2" fill="#2E7D32" />
+
+      <!-- 1. NET QUANTITY (Rule 6(1)(c)) -->
+      <g transform="translate(14, 28)">
+        <text x="0" y="0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#1C1B1A">Net Quantity</text>
+        <text x="96" y="0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#1C1B1A">:</text>
+        <text x="110" y="0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="900" fill="#000000">500 g</text>
+      </g>
+
+      <line x1="14" y1="46" x2="231" y2="46" stroke="#ECEFF1" stroke-width="1" />
+
+      <!-- 2. MAXIMUM RETAIL PRICE (Rule 6(1)(e)) -->
+      <g transform="translate(14, 66)">
+        <text x="0" y="0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#1C1B1A">M.R.P.</text>
+        <text x="96" y="0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#1C1B1A">:</text>
+        <text x="110" y="0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="900" fill="#000000">₹ 120.00</text>
+        <text x="0" y="16" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9.5" font-weight="600" fill="#424242">(Incl. of all taxes)</text>
+      </g>
+
+      <line x1="14" y1="96" x2="231" y2="96" stroke="#ECEFF1" stroke-width="1" />
+
+      <!-- 3. PACKED ON (Rule 6(1)(d)) -->
+      <g transform="translate(14, 116)">
+        <text x="0" y="0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#1C1B1A">Packed On</text>
+        <text x="96" y="0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#1C1B1A">:</text>
+        <text x="110" y="0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="800" fill="#000000">MAR 2025</text>
+      </g>
+
+      <line x1="14" y1="132" x2="231" y2="132" stroke="#ECEFF1" stroke-width="1" />
+
+      <!-- 4. BEST BEFORE / EXPIRY (Rule 6(1)(d) Proviso) -->
+      <g transform="translate(14, 152)">
+        <text x="0" y="0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#1C1B1A">Best Before</text>
+        <text x="96" y="0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#1C1B1A">:</text>
+        <text x="110" y="0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="800" fill="#000000">SEP 2025</text>
+      </g>
+
+      <line x1="14" y1="168" x2="231" y2="168" stroke="#ECEFF1" stroke-width="1" />
+
+      <!-- 5. MANUFACTURER & PACKER DETAILS (Rule 6(1)(a)) -->
+      <g transform="translate(14, 192)">
+        <text x="0" y="0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="800" fill="#1C1B1A">Manufactured &amp; Packed by:</text>
+        <text x="0" y="16" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#0D47A1">GreenFields Agro Foods Pvt. Ltd.</text>
+        <text x="0" y="30" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="500" fill="#37474F">Plot No. 12, Industrial Area,</text>
+        <text x="0" y="44" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="500" fill="#37474F">Mohan Nagar, Kanpur - 208026,</text>
+        <text x="0" y="58" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="500" fill="#37474F">Uttar Pradesh, India.</text>
+      </g>
+
+      <!-- FSSAI LICENCE DECLARATION -->
+      <g transform="translate(14, 272)">
+        <text x="0" y="0" font-family="'Times New Roman', serif" font-size="15" font-weight="bold" font-style="italic" fill="#000000">fssai</text>
+        <text x="44" y="-1" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="600" fill="#212121">Lic. No. 10018064001234</text>
+      </g>
+
+      <line x1="14" y1="290" x2="231" y2="290" stroke="#CFD8DC" stroke-width="1" />
+
+      <!-- 6. CONSUMER CARE HELPLINE & EMAIL (Rule 6(1)(f)) -->
+      <g transform="translate(14, 312)">
+        <text x="0" y="0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9.5" font-weight="800" fill="#1C1B1A">For Consumer Complaints / Feedback:</text>
+        <!-- Phone Helpline -->
+        <g transform="translate(0, 16)">
+          <path d="M 0 0 C 0 6 5 11 11 11 L 13 11 C 14 11 15 10 15 9 L 15 7 C 15 6 14 5 13 5 L 11 5 C 10 5 9 6 9 7 L 8 7 C 6 7 5 6 5 4 L 5 3 C 6 3 7 2 7 1 L 7 -1 C 7 -2 6 -3 5 -3 L 3 -3 C 1 -3 0 -2 0 0 Z" fill="#1B5E20" transform="scale(0.85)" />
+          <text x="18" y="7" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#000000">+91 1800 123 4567</text>
+        </g>
+        <!-- Email Helpline -->
+        <g transform="translate(0, 36)">
+          <rect x="0" y="0" width="13" height="9" rx="1.5" fill="none" stroke="#1B5E20" stroke-width="1.2" />
+          <path d="M 0 0 L 6.5 5 L 13 0" fill="none" stroke="#1B5E20" stroke-width="1.2" />
+          <text x="18" y="8" font-family="'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="700" fill="#0D47A1">care@greenfieldsfoods.in</text>
+        </g>
+      </g>
+
+      <line x1="14" y1="368" x2="231" y2="368" stroke="#CFD8DC" stroke-width="1" />
+
+      <!-- 7. COUNTRY OF ORIGIN (Rule 6(1)(g)) -->
+      <g transform="translate(14, 390)">
+        <text x="0" y="0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="800" fill="#000000">Country of Origin: <tspan font-weight="700" fill="#1B5E20">India</tspan></text>
+      </g>
+
+      <!-- 8. EAN-13 BARCODE (8 906123 456789) -->
+      <g transform="translate(24, 432)">
+        <!-- Barcode Outer Frame -->
+        <rect x="0" y="0" width="195" height="105" fill="#FFFFFF" />
+
+        <!-- Guard Bars (Left) -->
+        <rect x="22" y="5" width="2" height="74" fill="#000000" />
+        <rect x="26" y="5" width="2" height="74" fill="#000000" />
+
+        <!-- Left 6 Digits Data Bars (8 906123) -->
+        <rect x="32" y="5" width="3" height="66" fill="#000000" />
+        <rect x="37" y="5" width="2" height="66" fill="#000000" />
+        <rect x="42" y="5" width="4" height="66" fill="#000000" />
+        <rect x="48" y="5" width="2" height="66" fill="#000000" />
+        <rect x="54" y="5" width="4" height="66" fill="#000000" />
+        <rect x="61" y="5" width="3" height="66" fill="#000000" />
+        <rect x="68" y="5" width="2" height="66" fill="#000000" />
+        <rect x="74" y="5" width="4" height="66" fill="#000000" />
+        <rect x="80" y="5" width="3" height="66" fill="#000000" />
+        <rect x="87" y="5" width="2" height="66" fill="#000000" />
+        <rect x="93" y="5" width="4" height="66" fill="#000000" />
+        <rect x="100" y="5" width="2" height="66" fill="#000000" />
+
+        <!-- Center Guard Bars -->
+        <rect x="106" y="5" width="2" height="74" fill="#000000" />
+        <rect x="110" y="5" width="2" height="74" fill="#000000" />
+
+        <!-- Right 6 Digits Data Bars (456789) -->
+        <rect x="116" y="5" width="3" height="66" fill="#000000" />
+        <rect x="122" y="5" width="2" height="66" fill="#000000" />
+        <rect x="127" y="5" width="4" height="66" fill="#000000" />
+        <rect x="134" y="5" width="3" height="66" fill="#000000" />
+        <rect x="140" y="5" width="2" height="66" fill="#000000" />
+        <rect x="146" y="5" width="4" height="66" fill="#000000" />
+        <rect x="153" y="5" width="2" height="66" fill="#000000" />
+        <rect x="158" y="5" width="3" height="66" fill="#000000" />
+        <rect x="165" y="5" width="4" height="66" fill="#000000" />
+        <rect x="172" y="5" width="2" height="66" fill="#000000" />
+        <rect x="177" y="5" width="3" height="66" fill="#000000" />
+
+        <!-- Guard Bars (Right) -->
+        <rect x="183" y="5" width="2" height="74" fill="#000000" />
+        <rect x="187" y="5" width="2" height="74" fill="#000000" />
+
+        <!-- Digits Underneath Barcode -->
+        <text x="6" y="88" font-family="'Courier New', monospace" font-size="14" font-weight="bold" fill="#000000">8</text>
+        <text x="44" y="88" font-family="'Courier New', monospace" font-size="14" font-weight="bold" fill="#000000" letter-spacing="3">906123</text>
+        <text x="124" y="88" font-family="'Courier New', monospace" font-size="14" font-weight="bold" fill="#000000" letter-spacing="3">456789</text>
+      </g>
+    </g>
+
+    <!-- Pouch Bottom Seal Crimping -->
+    <path d="M 0 655 L 515 655 L 515 675 L 0 675 Z" fill="#D8C8B1" />
+    <line x1="0" y1="662" x2="515" y2="662" stroke="#BFAC92" stroke-width="1.5" stroke-dasharray="4,3" />
+    <line x1="0" y1="670" x2="515" y2="670" stroke="#BFAC92" stroke-width="1.5" stroke-dasharray="4,3" />
+  </g>
+</svg>
